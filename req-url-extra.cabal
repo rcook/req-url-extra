@@ -1,0 +1,62 @@
+
+name:                                       req-url-extra
+version:                                    0.1.0.0
+homepage:                                   https://github.com/rcook/req-url-extra#readme
+license:                                    MIT
+license-file:                               LICENSE
+author:                                     Richard Cook
+maintainer:                                 rcook@rcook.org
+copyright:                                  2018 Richard Cook
+category:                                   Command Line
+build-type:                                 Simple
+cabal-version:                              >= 1.10
+extra-source-files:                         README.md
+
+source-repository head
+  type:                                     git
+  location:                                 https://github.com/rcook/req-url-extra.git
+
+library
+  default-language:                         Haskell2010
+  hs-source-dirs:                           lib
+  ghc-options:                              -W
+                                            -Wall
+                                            -Werror=incomplete-patterns
+                                            -Werror=missing-methods
+                                            -fwarn-unused-imports
+  build-depends:                            base >= 4.7 && < 5
+  exposed-modules:                          ReqUrlExtra
+
+executable req-url-extra-app
+  default-language:                         Haskell2010
+  hs-source-dirs:                           app
+  main-is:                                  Main.hs
+  ghc-options:                              -threaded
+                                            -rtsopts
+                                            -with-rtsopts=-N
+                                            -W
+                                            -Wall
+                                            -Werror=incomplete-patterns
+                                            -Werror=missing-methods
+                                            -fwarn-unused-imports
+  build-depends:                            base >= 4.7 && < 5
+                                          , req-url-extra
+
+test-suite req-url-extra-test
+  type:                                     exitcode-stdio-1.0
+  default-language:                         Haskell2010
+  hs-source-dirs:                           test
+  main-is:                                  Spec.hs
+  ghc-options:                              -threaded
+                                            -rtsopts
+                                            -with-rtsopts=-N
+                                            -W
+                                            -Wall
+                                            -Werror=incomplete-patterns
+                                            -Werror=missing-methods
+                                            -fwarn-unused-imports
+  other-modules:                            ReqUrlExtraSpec
+  build-depends:                            base >= 4.7 && < 5
+                                          , hspec
+                                          , req-url-extra
+

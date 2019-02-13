@@ -1,8 +1,11 @@
-# `req-url-extra`
-
-[![Travis branch](https://img.shields.io/travis/rcook/req-url-extra/master.svg)](https://travis-ci.org/rcook/req-url-extra)
+[![Travis CI](https://img.shields.io/travis/rcook/req-url-extra/master.svg)](https://travis-ci.org/rcook/req-url-extra)
 [![Hackage](https://img.shields.io/hackage/v/req-url-extra.svg)](http://hackage.haskell.org/package/req-url-extra)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/rcook/req-url-extra/master/LICENSE)
+[![Hackage dependencies](https://img.shields.io/hackage-deps/v/req-url-extra.svg)](http://hackage.haskell.org/package/req-url-extra)
+[![Stackage Nightly](http://stackage.org/package/req-url-extra/badge/nightly)](http://stackage.org/nightly/package/req-url-extra)
+[![Stackage LTS](http://stackage.org/package/req-url-extra/badge/lts)](http://stackage.org/lts/package/req-url-extra)
+[![Licence](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/rcook/req-url-extra/master/LICENSE)
+
+# req-url-extra
 
 This package provides helper functions to make working with `Url` from [Req][req] easier.
 

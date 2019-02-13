@@ -1,5 +1,5 @@
 name:                                       req-url-extra
-version:                                    0.1.0.0
+version:                                    0.1.1.0
 synopsis:                                   Provides URI/URL helper functions for use with Req
 description:                                This package provides helper functions for use with URIs and URLs in Req.
 homepage:                                   https://github.com/rcook/req-url-extra#readme

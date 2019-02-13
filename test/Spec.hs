@@ -1,7 +1,7 @@
 {-|
 Module      : Main
 Description : Main entrypoint for @req-url-extra@ tests
-Copyright   : (C) Richard Cook, 2018
+Copyright   : (C) Richard Cook, 2018-2019
 Licence     : MIT
 Maintainer  : rcook@rcook.org
 Stability   : stable

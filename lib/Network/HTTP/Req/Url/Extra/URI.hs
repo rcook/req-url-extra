@@ -1,7 +1,7 @@
 {-|
 Module      : Network.HTTP.Req.Url.Extra.URI
 Description : Functions for converting 'URI' to 'Url'
-Copyright   : (C) Richard Cook, 2018
+Copyright   : (C) Richard Cook, 2018-2019
 Licence     : MIT
 Maintainer  : rcook@rcook.org
 Stability   : stable
